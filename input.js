@@ -28,6 +28,8 @@ const handleUserInput = function(input){
   if(input === '\u0064'){
     connection.write('Move: right')
   }
+  connection.write(`Say: Hi`)
+
 } 
 
 module.exports = setupInput;
